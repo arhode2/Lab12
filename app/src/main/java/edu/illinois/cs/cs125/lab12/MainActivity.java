@@ -3,6 +3,7 @@ package edu.illinois.cs.cs125.lab12;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -40,6 +41,7 @@ public final class MainActivity extends AppCompatActivity {
 
         startAPICall();
     }
+    
 
     /**
      * Run when this activity is no longer visible.
